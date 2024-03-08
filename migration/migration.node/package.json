@@ -1,0 +1,18 @@
+{
+  "name": "database-migration",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Database migration from MariaDB to PostgreSQL",
+  "main": "migration.js",
+  "scripts": {
+    "start": "node migration.js"
+  },
+  "author": "Lucas",
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "dotenv": "^16.3.1",
+    "mysql": "^2.18.1",
+    "pg": "^8.11.3",
+    "scrypt-kdf": "^2.0.1"
+  }
+}
